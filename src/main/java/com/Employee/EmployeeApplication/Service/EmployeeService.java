@@ -89,6 +89,7 @@ public class EmployeeService {
         return employeeResponseDTO;
     }
 
+    //Delete employee by Id
     public void deleteEmployeeById(Long id) {
         try {
             employeeRepository.deleteById(id);
